@@ -26,6 +26,3 @@ class Cat(commands.Cog):
         response = requests.get(self.cat_api,params={'x-api-key':'a2db441d-eb55-418f-a4a2-2d45db833c6d'})
         url = response.json()[0].get('url')
         await ctx.send(url)
-
-    def cog_unload(self):
-        self.bot.loop.create_task(self.session.close())
