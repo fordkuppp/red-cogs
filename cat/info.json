@@ -1,0 +1,19 @@
+{
+    "name": "Cat",
+    "short": "cat",
+    "description": "cute cat",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "install_msg": "cat",
+    "author": [
+        "Renaiss"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "animal cat"
+    ],
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
